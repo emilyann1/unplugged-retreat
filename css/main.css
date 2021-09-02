@@ -246,7 +246,7 @@ aside .content-wrapper {
     margin: 30px 0;
 }
 
-.features .features-item-description {
+.features .features-items {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -492,6 +492,8 @@ aside .content-wrapper {
   .reviews article {
     display: flex;
     justify-content: space-between;
+    flex-flow: column;
+    width: 49%;
   }
   
   .reviews article div {
@@ -526,25 +528,25 @@ aside .content-wrapper {
    About Page
    ========================================================================== */
  
-   .mission-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px; 
 }
 
 .mission-content p {
-    width: 45%;
+  width: 45%;
 }
 
 .contact-section .content-wrapper h2 {
-    width: 80%;
+  width: 80%;
 }
 
 .contact-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 /* ==========================================================================
    FAQ Page
