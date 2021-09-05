@@ -472,7 +472,7 @@ input[type=button] {
 
 .map-container {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 125%;
   height: 0;
   overflow: hidden;
 }
@@ -745,6 +745,10 @@ aside .content-wrapper {
   font-size: 1.5em;
 }
 
+.map-container {
+  padding-bottom: 45%;
+}
+
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -855,7 +859,9 @@ footer h4 {
     font-size: 1.875em;
   }
 
-
+  .map-container {
+    padding-bottom: 38%;
+  }
 
 /* ==========================================================================
    FAQ Page
