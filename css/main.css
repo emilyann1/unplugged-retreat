@@ -252,14 +252,26 @@ footer .copyright {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 12.5em;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+footer .social-icons i {
+  font-size: 1.3125em;
+  
 }
 
 /* ----------------- Mobile Styles - Homepage ----------------------------- */
